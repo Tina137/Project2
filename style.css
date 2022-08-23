@@ -1,0 +1,65 @@
+@font-face {
+  font-family: Grand;
+  src: url(./Grandesign\ Neue\ Roman\ Bold.ttf);
+}
+@font-face {
+  font-family: Grand-italic;
+  src: url(./Grandesign\ Neue\ Roman\ Italic.ttf);
+}
+body {
+  height: 150vh;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(
+    to bottom,
+    #ff8985,
+    #ff9b7e,
+    #ffaf7a,
+    #ffc37b,
+    #ffd782
+  );
+}
+img {
+  display: block;
+  margin: auto;
+  width: 59vw;
+}
+.h2-1 {
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-top: 1vh;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f9fffd;
+  font-size: 4vw;
+  font-family: Grand;
+}
+.h2-2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f9fffd;
+  font-size: 4vw;
+  font-family: Grand-italic;
+}
+p {
+  margin-top: 0;
+  margin-top: 1vh;
+  text-align: center;
+  text-transform: uppercase;
+  color: #f9fffd;
+  font-size: 2vw;
+  font-family: Grand-italic;
+}
+.a1 {
+  margin-left: 45vw;
+  padding: 5px 25px;
+  border: 2px solid #f9fffd;
+  text-decoration: none;
+  margin-top: 0;
+  margin-top: 1vh;
+  text-transform: uppercase;
+  color: #f9fffd;
+  font-size: 2vw;
+  font-family: Grand-italic;
+}
